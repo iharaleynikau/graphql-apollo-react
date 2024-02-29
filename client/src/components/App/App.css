@@ -1,0 +1,35 @@
+.main {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px;
+}
+
+.main__content-wrapper {
+  max-width: 350px;
+}
+
+.button-container {
+  display: flex;
+  margin-top: 30px;
+}
+
+.data-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 15px 0;
+}
+
+.data-block {
+  margin: 10px 0;
+}
+
+button {
+  width: 100%;
+}
